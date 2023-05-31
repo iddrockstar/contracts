@@ -1,6 +1,10 @@
 // SPDX-License-Identifier: Apache-2.0
 pragma solidity ^0.8.0;
 
+import "@thirdweb-dev/contracts/openzeppelin-presets/token/ERC20/ERC20.sol";
+import "@thirdweb-dev/contracts/extension/Drop.sol";
+import "@thirdweb-dev/contracts/extension/LazyMint.sol";
+
 /**
  * @title ERC20 interface
  * @dev see https://github.com/ethereum/EIPs/issues/20
