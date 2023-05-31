@@ -1,6 +1,9 @@
 // SPDX-License-Identifier: Apache-2.0
 pragma solidity ^0.8.0;
 
+import "@thirdweb-dev/contracts/eip/interface/IERC20.sol";
+import "@thirdweb-dev/contracts/extension/DropSinglePhase.sol";
+
 /// @author thirdweb
 
 import "./interface/IDropSinglePhase.sol";
